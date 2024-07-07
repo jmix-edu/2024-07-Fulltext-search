@@ -32,6 +32,9 @@
                     <action id="entityClear" type="entity_clear"/>
                 </actions>
             </entityPicker>
+            <fileStorageUploadField id="attachmentField" property="attachment"
+                                    fileNameVisible="true"
+                                    clearButtonVisible="true"/>
         </formLayout>
         <h4 text="msg://com.company.jmixpmflowbase.entity/Project.tasks"/>
         <hbox id="buttonsPanel" classNames="buttons-panel">
